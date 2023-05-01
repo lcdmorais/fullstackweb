@@ -11,9 +11,9 @@ for (let s = 0 s < serie.length; s++)
 let media = (nota01[i] + nota02[i]) / 2;
 
 if (media >= 5) { 
-    console.log (alunos[i] + serie[s] + 'APROVADO')
+    console.log (alunos[i] + serie[s] + ' APROVADO')
 } else {
-    console.log (alunos[i] + serie[s] +'reprovado');
+    console.log (alunos[i] + serie[s] +' REPROVADO');
 }
 
 
